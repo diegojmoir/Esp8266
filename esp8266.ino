@@ -28,11 +28,11 @@ sds011::Sds011 sensorSDS(serialSDS);
 DHT dht(ONEWIRE_PIN, DHT_TYPE);
 
 //Wifi credentials
-const char* ssid = "MEDICIONES AMBINETALES";
-const char* password = "01D15A2C68";
-const char* host = "floating-oasis-29777.herokuapp.com";
+const char* ssid = "your wifi ssid ";
+const char* password = "****";
+const char* host = "host site";
 const char fingerPrint[] PROGMEM  = "8b 48 5e 67 0e c9 16 47 32 f2 87 0c 1f c8 60 ad";
-const char* path = "/api/data/";
+const char* path = "api path";
 const int port = 443; 
 
 struct {
